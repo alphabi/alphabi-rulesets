@@ -6,7 +6,7 @@ The original Alphabinary definition only specified how to handle characters in t
 
 However, this definition falls short in a number of ways:
 
-- It doesn't state how to interpret digits in the imput (including a literal "0" or "1"), whether they should be included or discarded.
+- It doesn't state how to interpret digits in the input (including a literal "0" or "1"), whether they should be included or discarded.
 - It doesn't describe how to handle even *slight* variations on these letters, such as an accented "é".
 - It's ambiguous about how to handle spaces and punctuation, and the implied discarding of them wastes potential space for further information (ie. interpreting a space character as a zero bit brings the information density much closer to a one-character-to-one-bit ratio).
 - It doesn't provide rules for characters in other alphabets, such as Ф (the Cyrillic "Ef").
